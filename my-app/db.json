@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "name": "Jeans",
+      "image": "https://imgs.search.brave.com/sXB4Wnxsufp7792gkA5WwsmpF4ksB3mQHIv11ExMpnY/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvMTZk/ZjRkMmItNzYyMi00/OTM3LTlmYzItOWJl/MzA5YzgwNTAyXzEu/YWQyZjgwMWE5OTUz/ZmI0NmZkMGU4NTA1/OTRjMzg1MzYuanBl/Zw",
+      "brand": "xyz",
+      "price": 9999,
+      "category": "jeans",
+      "gender": "female",
+      "id": 1
+    },
+    {
+      "name": "top",
+      "image": "https://imgs.search.brave.com/EDavu_CIj0v6Y0VRVyUWf0BrCQzG-b0115TpL8FCAmc/rs:fit:1000:1200:1/g:ce/aHR0cHM6Ly93d3cu/ZGVzaXNhcmVlcy5j/b20vODQ2My1sYXJn/ZV9kZWZhdWx0L2Js/dWUtaW5kaWFuLXJl/YWR5LW1hZGUtc2Fy/ZWUtYmxvdXNlLWlu/LWJyb2NhZGUtZmFi/cmljLXRvcC1jaG9s/aS1pZGVhbC1jb250/cmFzdC1tYXRjaC1z/b3V0aGFsbC13ZW1i/bGV5LWxvbmRvbi1s/dXRvbi00MDIzLmpw/Zw",
+      "brand": "zara",
+      "price": 999,
+      "category": "top-wear",
+      "gender": "female",
+      "id": 2
+    },
+    {
+      "name": "t-shirt",
+      "image": "https://imgs.search.brave.com/nSlCqUd5E41EBNqubBNgjhPYll-k20RcuJGiRBZbwBI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzAw/NDYvNDYwMS8wOTk4/L3Byb2R1Y3RzL3Rv/cC1jaGVyb2tlZS13/b3Jrd2Vhci10b3At/d3ctdi1uZWNrLXRv/cC1jYXJpYmJlYW4t/Ymx1ZS02MTY0ODU4/MjczOTEwLmpwZz92/PTE1NzE3MTAxMjU",
+      "brand": "guchi",
+      "price": 984,
+      "category": "t-shirt",
+      "gender": "female",
+      "id": 3
+    },
+    {
+      "name": "top-rebowy",
+      "image": "https://imgs.search.brave.com/uPuQHHYe7cFPopDp3NtKlQp36os0c8gHGDlj1hIexNU/rs:fit:378:567:1/g:ce/aHR0cHM6Ly9tb29k/by5wbC9wb2xfcHNf/VG9wLXJpYmJvd3kt/MTA4MzBfMS5qcGc",
+      "brand": "draxed",
+      "price": 899,
+      "category": "top-wear",
+      "gender": "female",
+      "id": 4
+    },
+    {
+      "name": "Princess Dress",
+      "image": "https://imgs.search.brave.com/t0Itmgxh5nYWCS_ItfpUin2DcmFzBL9DuDFHwAB12pY/rs:fit:850:850:1/g:ce/aHR0cHM6Ly9hZTAx/LmFsaWNkbi5jb20v/a2YvSFRCMU5ibWRT/cFhYWFhYVlhGWFhx/NnhYRlhYWDIvbmV3/LWZhc2hpb24tYnJh/bmQtc3VtbWVyLWtp/ZHMtY2xvdGhlcy1j/aGlsZHJlbi1jbG90/aGluZy1naXJscy1k/cmVzcy1iYWJ5LWtp/ZHMtcHJpbmNlc3Mt/ZHJlc3Mtc3VtbWVy/LWRlbmltLmpwZw",
+      "brand": "spark",
+      "price": 777,
+      "category": "top-wear",
+      "gender": "kids",
+      "id": 5
+    },
+    {
+      "name": "kurta",
+      "image": "https://imgs.search.brave.com/PZA4aatlzN735bzYtrxIqlsdrknuq_Vp4PlDM9vPp6s/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/a2FnYW1hc3VtdXQu/b3JnL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIwLzAzLzYuanBn",
+      "brand": "Guchhi",
+      "price": 9999,
+      "category": "top-wear",
+      "gender": "male",
+      "id": 6
+    },
+    {
+      "name": "kurta ",
+      "image": "https://imgs.search.brave.com/b2wK7OXZL8AvsJfhnQpXvfBbu-lBpxfW3rG1-YN8f44/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jcmF5/b24ucGsvd3AtY29u/dGVudC91cGxvYWRz/LzIwMTgvMDEvV2Vk/ZGluZy1LdXJ0YS1X/aXRoLVBhamFtYS0x/LmpwZw",
+      "brand": "zara",
+      "price": 944,
+      "category": "top-wear",
+      "gender": "male",
+      "id": 7
+    }
+  ]
+}
