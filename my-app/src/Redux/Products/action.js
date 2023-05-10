@@ -8,10 +8,10 @@ import {
 } from "../actionTypes";
 import axios from "axios";
 
-export const AddProducts = (productsData) => (dispatch) => {
+export const AddPost = (productsData) => (dispatch) => {
   dispatch({ type: PRODUCTS_REQUEST });
-  axios
-    .post("http://localhost:8080/products", productsData)
+  return axios
+    .post("http://localhost:8080/post", productsData)
     .then((res) => {
       //console.log(res.data);
       dispatch({ type: POST_PRODUCTS_SUCSESS });
@@ -25,7 +25,7 @@ export const AddProducts = (productsData) => (dispatch) => {
 export const GetProducts = (props) => (dispatch) => {
   dispatch({ type: PRODUCTS_REQUEST });
   axios
-    .get("http://localhost:8080/products", props)
+    .get("http://localhost:8080/post", props)
     .then((res) => {
       dispatch({ type: GET_PRODUCTS_SUCSESS, payload: res.data });
     })
@@ -36,13 +36,13 @@ export const GetProducts = (props) => (dispatch) => {
 
 export const DeleteProducts = (id) => (dispatch) => {
   let payload = [];
-  axios.get("http://localhost:8080/products").then((res) => {
+  axios.get("http://localhost:8080/post").then((res) => {
     payload = res.data.filter((el) => el.id !== id);
   });
 
   dispatch({ type: PRODUCTS_REQUEST });
   axios
-    .delete(`http://localhost:8080/products/${id}`)
+    .delete(`http://localhost:8080/post/${id}`)
     .then((res) => {
       dispatch({ type: DELETE_PRODUCTS_SUCSESS, payload });
     })
@@ -54,7 +54,7 @@ export const DeleteProducts = (id) => (dispatch) => {
 export const PatchProducts = (id, data) => (dispatch) => {
   dispatch({ type: PRODUCTS_REQUEST });
   return axios
-    .patch(`http://localhost:8080/products/${id}`, data)
+    .patch(`http://localhost:8080/post/${id}`, data)
     .then((res) => {
       dispatch({ type: PATCH_PRODUCTS_SUCSESS });
     })

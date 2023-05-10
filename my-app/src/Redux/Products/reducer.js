@@ -11,7 +11,7 @@ import {
 const initialState = {
   isLoading: false,
   isError: false,
-  Products: [],
+  Post: [],
 };
 
 export const reducer = (state = initialState, { type, payload }) => {
@@ -26,10 +26,10 @@ export const reducer = (state = initialState, { type, payload }) => {
       return { ...state, isLoading: false };
     }
     case GET_PRODUCTS_SUCSESS: {
-      return { ...state, isLoading: false, Products: payload };
+      return { ...state, isLoading: false, Post: payload };
     }
     case DELETE_PRODUCTS_SUCSESS: {
-      return { ...state, isLoading: false, Products: payload };
+      return { ...state, isLoading: false, Post: payload };
     }
     case PATCH_PRODUCTS_SUCSESS: {
       return { ...state, isLoading: false };
